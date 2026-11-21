@@ -223,3 +223,10 @@ __marimo__/
 data/*
 !data/.keep
 .env
+
+# Benchmark generated results and plots
+benchmarks/results/*
+!benchmarks/results/.gitkeep
+benchmarks/plots/*
+!benchmarks/plots/.gitkeep
+

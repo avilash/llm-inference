@@ -1,0 +1,63 @@
+[
+  {
+    "id": "short-1",
+    "prompt": "What is the capital of France?",
+    "max_tokens": 32,
+    "category": "short"
+  },
+  {
+    "id": "short-2",
+    "prompt": "Explain the difference between synchronous and asynchronous execution in 2 sentences.",
+    "max_tokens": 64,
+    "category": "short"
+  },
+  {
+    "id": "short-3",
+    "prompt": "Write a Python one-liner to reverse a list.",
+    "max_tokens": 32,
+    "category": "short"
+  },
+  {
+    "id": "medium-1",
+    "prompt": "Explain how continuous batching works in modern LLM inference engines like vLLM and why it outperforms static batching.",
+    "max_tokens": 128,
+    "category": "medium"
+  },
+  {
+    "id": "medium-2",
+    "prompt": "Write a Python function using asyncio that fetches data from multiple URLs concurrently with error handling.",
+    "max_tokens": 160,
+    "category": "medium"
+  },
+  {
+    "id": "medium-3",
+    "prompt": "Discuss the primary bottlenecks in LLM inference, contrasting the prefill phase with the decode phase in terms of compute and memory bandwidth.",
+    "max_tokens": 160,
+    "category": "medium"
+  },
+  {
+    "id": "medium-4",
+    "prompt": "Describe how a two-tier authentication cache using PostgreSQL and Redis reduces latency jitter in high-throughput API services.",
+    "max_tokens": 128,
+    "category": "medium"
+  },
+  {
+    "id": "long-1",
+    "prompt": "You are a senior systems architect. Detail the design of a high-throughput, low-latency LLM serving engine. Cover continuous iteration-level scheduling, paged KV cache memory management to eliminate external fragmentation, chunked prefill co-scheduling, and structured output constrained decoding via finite state machines. Include trade-offs for each architectural decision.",
+    "max_tokens": 256,
+    "category": "long"
+  },
+  {
+    "id": "long-2",
+    "prompt": "Write a comprehensive tutorial on building an async key-value caching layer in Python using Redis and SQLAlchemy. Include connection pooling, connection error retry mechanisms, TTL expiration strategies, cache stampede prevention via distributed locks, and automated integration testing with pytest.",
+    "max_tokens": 256,
+    "category": "long"
+  },
+  {
+    "id": "long-3",
+    "prompt": "Provide a thorough comparative analysis between FlashAttention-2, PagedAttention, and vLLM's memory management mechanisms. Explain how logical block mapping tables translate to physical GPU memory buffers, how block allocation occurs on demand, and how reference-counted copy-on-write enables efficient parallel sampling.",
+    "max_tokens": 256,
+    "category": "long"
+  }
+]
+
